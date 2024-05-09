@@ -1,0 +1,62 @@
+body {
+    background-color: #4b2b2b; /* Fondo negro */
+    color: #181515; /* Texto en color blanco para mayor contraste */
+    font-family: Arial, sans-serif; /* Fuente para el texto */
+}
+
+.container {
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+    padding: 20px; /* Espacio interno para separar el contenido del borde */
+    background-color: #ccc3c3; /* Fondo negro */
+    color: #0d0c0c; /* Texto en color blanco para mayor contraste */
+    font-family: Arial, sans-serif; /* Fuente para el texto */
+    border-radius: 10px; /* Esquinas redondeadas del contenedor */
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2); /* Sombra suave alrededor del contenedor */
+    box-sizing: border-box; /* Incluir el padding en el ancho total del contenedor */
+    overflow: hidden; /* Ocultar el contenido que se desborda del contenedor */
+    display: flex; /* Usar flexbox para centrar el contenido verticalmente */
+    flex-direction: column; /* Apilar los elementos verticalmente */
+    align-items: center; /* Centrar los elementos horizontalmente */
+    justify-content: center; /* Centrar los elementos verticalmente */
+    height: 100vh; /* Altura del contenedor igual al 100% de la altura de la ventana */
+}
+
+.container img {
+    max-width: 100%; /* Ancho máximo igual al ancho del contenedor */
+    height: auto; /* Altura automática para mantener la proporción original */
+    display: block; /* Mostrar la imagen como un bloque */
+    margin-bottom: 20px; /* Espacio inferior para separar la imagen del texto */
+    margin: 0 auto; /* Centrar la imagen horizontalmente */
+}
+
+
+.question {
+    margin-bottom: 20px;
+}
+
+.answers input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s ease; /* Efecto de transición para el cambio de color de fondo */
+}
+
+.answers input[type="text"]:focus {
+    outline: none;
+}
+
+.answers button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Efecto de transición para el cambio de color de fondo */
+}
+
+.answers button:hover {
+    background-color: #0056b3;
+}
+
